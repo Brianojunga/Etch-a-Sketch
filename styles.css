@@ -1,0 +1,108 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+
+body{
+    width : 100vw;
+    height : 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+.start{
+    width : 60vw;
+    margin : 0.5rem auto;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.startbtn{
+    background-color: rgb(21, 190, 21);
+    text-align: center;
+    margin-top: 1rem;
+}
+.grid-buttons-container{
+    display : none;
+    height : 100%;
+    width : 100%;
+}
+
+.grid-container{
+    width : 80%;
+    display : flex;
+    flex-wrap: wrap;
+    height : 100%;
+    margin : 0 auto;
+}
+.para{
+    font-weight : bold;
+    margin : 0.85rem auto;
+    width : 60%;
+    text-align: center;
+}
+
+.box{
+    border : 1px solid rgb(71, 70, 70);
+}
+.buttons1, .buttons2{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    width : 10%;
+    align-items: center;
+}
+.exit{
+    margin-left : auto;
+    background-color: rgb(21, 190, 21);
+    padding : 0.85rem 2rem
+}
+.exit:hover, .startbtn:hover{
+    background-color:rgba(27, 197, 27, 0.989) ;
+}
+
+.exit:active, .startbtn:active{
+    background-color:rgba(27, 197, 27, 0.753) ;
+}
+.rgb{
+    background: linear-gradient(red 0%, green 50%, blue 100%);
+}
+.rgb:hover{
+    background: linear-gradient(rgb(240, 6, 6) 0%, rgb(6, 138, 6) 50%, rgb(6, 6, 240) 100%);
+}
+.rgb:active{
+    background: linear-gradient(rgb(230, 6, 6) 0%, rgb(6, 150, 6) 50%, rgb(6, 6, 230) 100%);
+}
+
+.black{
+    background-color: rgb(31, 31, 31);
+}
+.black:hover{
+    background-color: rgb(52, 51, 51);
+}
+.black:active{
+    background-color: rgb(70, 70, 70);
+}
+
+.reset{
+    color : black;
+}
+.reset:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.reset:active{
+    background-color: rgb(221, 218, 218);
+}
+
+
+button{
+    padding : 0.85rem 1.70rem;
+    font-weight : bold;
+    border-radius : 0.5rem;
+    color : white;
+    border : none;
+    cursor : pointer;
+    margin : 2rem;
+}
